@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header {
+  background-color: rgba(74, 98, 238, 0.854);
+  padding: 35px;
+  font-size: 2rem;
+  font-weight: 800;
+  
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
+}
+
+.header {
+  background-color: rgba(74, 98, 238, 0.854);
+  padding: 35px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  width: 75%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.input, .textarea, .priority-select, .button {
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.priority-select {
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(37, 37, 37, 0.8);
+}
+
+.tasks-container {
+  margin-top: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  width: 85%;
+  border-radius: 15px;
+  min-height: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.note {
+  margin: 15px;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.task > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.task > div > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.task > div > span {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  margin-left: 5px;
+  border-left: 4px solid black;
+}
+
+.task > button {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.task > button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
